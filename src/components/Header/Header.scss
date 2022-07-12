@@ -1,0 +1,22 @@
+.headerContainer{
+    display: flex;
+    flex-direction: row-reverse;
+    flex-wrap: wrap;
+    margin-right: 5vw;    
+
+    ul{
+        li{
+            display: inline;
+            line-height: 1.7em;
+            font-size: 1.7em;
+            margin-left: 1.5rem;
+            color: #01bdae;
+        }
+        
+        li:hover{
+            color: black;
+            background-color: white;
+        }
+    }
+}
+

@@ -1,0 +1,22 @@
+import React from "react";
+import { Link } from "react-router-dom";
+import "./Header.scss";
+
+const Header = () => {
+  return (
+    <div className="headerContainer">
+      <ul>
+        {["Home", "about", "projects", "contact"].map((item, index) => (
+          <Link
+            to={item === "Home" ? "/" : item}
+            style={{ textDecoration: "none" }}
+          >
+            <li key={index}>{item.charAt(0).toUpperCase() + item.slice(1)}</li>
+          </Link>
+        ))}
+      </ul>
+    </div>
+  );
+};
+
+export default Header;
