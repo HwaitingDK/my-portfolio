@@ -10,6 +10,7 @@ const Header = () => {
           <Link
             to={item === "Home" ? "/" : item}
             style={{ textDecoration: "none" }}
+            key={index}
           >
             <li key={index}>{item.charAt(0).toUpperCase() + item.slice(1)}</li>
           </Link>
