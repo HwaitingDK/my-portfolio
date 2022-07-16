@@ -1,10 +1,11 @@
-import './App.css';
+import './App.scss';
 import { Route, Routes, BrowserRouter as Router } from 'react-router-dom';
 import HomePage from './components/HomePage/HomePage';
 import About from './components/About/About';
 import Contact from './components/Contact/Contact';
 import Header from './components/Header/Header';
 import Projects from './components/Projects/Projects';
+import Footer from './components/Footer/Footer';
 
 function App() {
   return (
@@ -16,6 +17,7 @@ function App() {
         <Route path='/contact' element={<Contact />} />
         <Route path='/projects' element={<Projects />} />
       </Routes>
+      {/* <Footer /> */}
     </Router>
   );
 }

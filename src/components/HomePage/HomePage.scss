@@ -15,16 +15,17 @@
     text-align: center;
     flex-wrap: wrap;
     position: relative;
+    margin-top: 30vh;
+    margin-right: 30vw;
 
-    top: 33vh;
-    right: 17vw;
+    // top: 33vh;
+    // right: 17vw;
 
     font-size: 1.8rem;
     
     color: #272341;
     
     .name{
-        display: inline;
         color: #01bdae;
         margin-left: 1rem;
     }
@@ -41,5 +42,45 @@
     .button{
         margin-top: 1rem;
         margin-left: -14rem;
+    }
+
+    @media screen and (max-width: 1200px) {
+        margin: 8rem;
+        margin-top: 17rem;
+
+    }
+
+    @media screen and (max-width: 1000px) {
+        margin: 4rem;
+        margin-top: 15rem;
+        font-size: 1.5rem;
+
+        .button{
+            margin-right: -5rem;
+            width: 50%;
+        }
+
+        .tagLine{
+            margin-left: -3.2rem;
+        }
+    }
+
+    @media screen and (max-width: 1000px) {
+        margin: 3rem;
+        margin-top: 15rem;
+        font-size: 1.5rem;
+
+        .button{
+            margin-right: -7rem;
+            width: 50%;
+        }
+
+        .tagLine{
+            margin-left: -3.2rem;
+        }
+    }
+    
+    @media screen and (max-width: 800px) {
+        flex-direction: column;;
     }
 }
