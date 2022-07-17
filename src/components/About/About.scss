@@ -19,6 +19,7 @@
     background-color: var(--white-color);
     display: flex;
     padding: 2rem;
+    margin-bottom: 12rem;
     border-radius: 15px;
     box-shadow: 0 0 30px rgba(0, 0, 0, 0.1);
     transition: all 0.3s ease-in-out;
@@ -35,6 +36,13 @@
 
     @media screen and (min-width: 1600px){
         margin-left: 11rem;    
+    }
+
+    @media screen and (max-width: 450px){
+        margin: 0;
+    }
+    &:hover{
+        box-shadow: 0 0 25px #a7c7cf;
     }
 }
 
@@ -62,6 +70,8 @@
             font-size: 1.5rem;
         }
     }
+
+
 }
 
 .app__about-imageContainer{

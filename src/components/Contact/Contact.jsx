@@ -29,6 +29,9 @@ const Contact = () => {
       email: email,
       message: message,
     };
+
+    setLoading(false);
+    setIsFromSubmitted(true);
   };
 
   return (

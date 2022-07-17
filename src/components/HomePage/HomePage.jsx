@@ -14,7 +14,7 @@ const HomePage = () => {
       </div>
       
       <div className="button">
-        <CustomButton style={{ marginLeft: "2.6rem" }} text={'Know More'}/>
+        <CustomButton route='/about' style={{ marginLeft: "2.6rem" }} text={'Know More'}/>
       </div>
     </div>
   );

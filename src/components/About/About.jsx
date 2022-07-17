@@ -1,9 +1,7 @@
 import React from "react";
 import { images } from "../../constants";
-import Footer from "../Footer/Footer";
+import CustomButton from "../CustomButton/CustomButton";
 import "./About.scss";
-import pic from "./myImage_2.png";
-
 
 const About = () => {
   return (
@@ -11,9 +9,6 @@ const About = () => {
       <div className="app__about app__flex">
         <div>
           <div className="app__about-imageContainer app__flex">
-            <div className="app__about-image">
-              <img src={pic} alt="myImage" />
-            </div>
           </div>
           <div className="app__about-item app__flex">
             <div className="app__about-content">
@@ -40,9 +35,12 @@ const About = () => {
               </p>
             </div>
           </div>
+            <div className="app__about-image">
+              <CustomButton downloadCv='true' route='/about'  extraStyle={true} text={'Know More'}/>
+            </div>
         </div>
         <div className="aboutSkillsContainer">
-          <p className="head-text">Programming Languages & Libraries</p>
+          <p  style={{ marginLeft: "2.6rem" }} className="head-text">Programming Languages & Libraries</p>
           {[
             'cpp',
             'css',
@@ -54,6 +52,14 @@ const About = () => {
             'react',
             'redux',
             'sass',
+            'numpy',
+            'pandas',
+            'matplotlib',
+            'scikitlearn',
+            'express',
+            'tensorflow',
+            'firebase',
+            'mongodb'
           ].map((element, index) => (
             <div key={index} className="aboutSkill">
               <img className="aboutSkillItem" src={images[element]} alt="cpp" />
@@ -61,7 +67,7 @@ const About = () => {
           ))}
         </div>
       </div>
-      <Footer />
+
     </>
   );
 };
