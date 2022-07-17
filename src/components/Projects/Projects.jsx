@@ -1,26 +1,16 @@
-import React from 'react'
-import Project from '../Project/Project';
+import React from "react";
+import Project from "../Project/Project";
+import projects from "./projectData";
+import "./Projects.scss";
 
 const Projects = () => {
-  const projects = [{
-    title: 'Support desk',
-    description: 'This is suport desk which is made to provide support the users.',
-    imgUrl: ''
-  }, {
-    title: 'Github Finder',
-    description: "Github Finder is app which is used to find github folks",
-  }];
-
   return (
-    <>
-      <h1>Projects</h1>
-      {
-        projects.map((project) => (
-          <Project title={project.title} description={project.description}/>
-        ))
-      }
-    </>
-  )
-}
+    <div className="projects-preview">
+        {projects.map((project) => (
+          <Project key={project.id} project={project} />
+        ))}
+    </div>
+  );
+};
 
 export default Projects;

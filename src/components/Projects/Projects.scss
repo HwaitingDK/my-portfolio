@@ -1,0 +1,23 @@
+.projects-preview{
+    width: 80vw;
+    height: 10vh;
+    margin: 2rem auto;
+    // margin-left: auto;
+    // margin-right: auto;
+    // margin-bottom: 2rem;
+    display: grid;
+    // display: flex;
+    flex-wrap: wrap;
+    // grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-columns: auto auto auto;
+    // grid-gap: 4rem;
+    grid-gap: 9px;
+
+
+    @media screen and (max-width: 800px) {
+        display: flex;        
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+}
+

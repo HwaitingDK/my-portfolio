@@ -23,12 +23,13 @@ const Contact = () => {
   const handleSubmit = (e) => {
     setLoading(true);
 
-    const contact = {
-      _type: "contact",
-      name: name,
-      email: email,
-      message: message,
-    };
+    // For Storing message.
+    // const contact = {
+    //   _type: "contact",
+    //   name: name,
+    //   email: email,
+    //   message: message,
+    // };
 
     setLoading(false);
     setIsFromSubmitted(true);
