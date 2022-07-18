@@ -36,10 +36,10 @@ const Contact = () => {
   };
 
   return (
-    <>
-      <h2 className="head-text">Take a Coffee & chat with me</h2>
+    <div>
+      <h2 className="head-text" style={{ marginTop: '1.5rem', marginLeft: '1.5rem' }}>Take a Coffee & chat with me</h2>
 
-      <div className="app__contact-cards">
+      <div className="app__contact-cards app__flex">
         <div className="app__contact-card">
           <img src={images.email} alt="email" />
           <a href="mailto:09gmail09@gmail.com" className="p-text">
@@ -95,7 +95,7 @@ const Contact = () => {
           <h3 className="head-text">Thank you, for getting in touch!</h3>
         </div>
       )}
-    </>
+    </div>
   );
 };
 
