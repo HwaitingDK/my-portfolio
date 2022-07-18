@@ -15,11 +15,9 @@
     text-align: center;
     flex-wrap: wrap;
     position: relative;
-    margin-top: 30vh;
-    margin-right: 30vw;
 
-    // top: 33vh;
-    // right: 17vw;
+    width: 60vw;
+    height: 90vh;
 
     font-size: 1.8rem;
     
@@ -27,60 +25,66 @@
     
     .name{
         color: #01bdae;
-        margin-left: 1rem;
     }
-    
-    .tagLine{
-        margin-left: -0.9rem;
-    }
-    
+
     .nameLine{
         display: flex;
-        margin-right: 16rem;
+        justify-content: center;
+        flex-direction: column;
+        align-items:flex-start;
+        justify-content: flex-start;
+        text-align: center;
+        margin: 1rem;
+
+        @media screen and (max-width: 310px) {
+            font-size: 0.9rem;
+        }
     }
     
     .button{
-        margin-top: 1rem;
-        margin-left: -14rem;
+
+        margin-right: 7rem; 
+        @media screen and (max-width: 900px){
+            margin-left: -5rem;
+            font-size: 0.7rem;
+        }
+        
+        @media screen and (max-width: 1200px) {
+            margin-left: -5rem;
+        }
+
+        @media screen and (max-width: 1180px) {
+            margin-left : -0.1rem;
+        }
+
+        @media screen and (max-width: 768px) {
+            margin: 0rem;
+            font-size: 0.5rem;
+        }
     }
 
-    @media screen and (max-width: 1200px) {
-        margin: 8rem;
-        margin-top: 17rem;
-
+    @media screen and (min-width: 880px){
+        font-size: 1.5rem;
     }
 
     @media screen and (max-width: 1000px) {
-        margin: 4rem;
-        margin-top: 15rem;
         font-size: 1.5rem;
-
-        .button{
-            margin-right: -5rem;
-            width: 50%;
-        }
-
-        .tagLine{
-            margin-left: -3.2rem;
-        }
+        width: 70vw;
+        height: 70vh;
     }
 
-    @media screen and (max-width: 1000px) {
-        margin: 3rem;
-        margin-top: 15rem;
-        font-size: 1.5rem;
-
-        .button{
-            margin-right: -7rem;
-            width: 50%;
-        }
-
-        .tagLine{
-            margin-left: -3.2rem;
-        }
+    @media screen and (max-width: 650px){
+        font-size: 1.1rem;
     }
-    
-    @media screen and (max-width: 800px) {
-        flex-direction: column;;
+
+    @media screen and (max-width: 500px) {
+        width: 100vw;
+        height: 70vh;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        font-size: 1rem;
     }
+
+
 }
