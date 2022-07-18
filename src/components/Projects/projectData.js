@@ -72,7 +72,7 @@ const projects = [{
     title: 'Disease Prediction',
     imgUrl: 'diseaseprediction',
     projectUrl: '/projects/9',
-    description: "This notebook looks into using various Python-based machine learning and data science libraries in an attempt to build a machine learning model capable of predicting someone's disease based on their medical attributes",
+    description: "This notebook looks into using various Python-based machine learning and data science libraries in an attempt to build a machine learning model capable of predicting someone's disease given symptoms",
     watchLiveUrl: 'https://github.com/cupunjab/BruteForce/blob/master/ML/Jupyter%20Notebook/Disease%20Prediction%20Model.ipynb',
   }
 ];
