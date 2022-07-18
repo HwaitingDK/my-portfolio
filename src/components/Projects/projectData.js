@@ -1,7 +1,7 @@
 const projects = [{
     id: 1,
     title: 'Support desk',
-    description: 'This is suport desk which is made to provide support the users.',
+    description: "Support desk web app is made to provide support to the users. It's a Mern Stack App. In this one can create, view, close ticket, add notes and do all crud operations. It’s authenticated by Json web token.",
     imgUrl: 'supportdesk',
     projectUrl: '/projects/1',
     githubUrl: 'https://dksupportdesk.herokuapp.com/',
