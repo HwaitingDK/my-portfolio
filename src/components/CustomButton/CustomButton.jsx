@@ -7,8 +7,8 @@ import { saveAs } from "file-saver";
 const DownloadImage = () => {
   const download = () => {
     saveAs(
-      "https://drive.google.com/file/d/1bx1jgqtRsLHnbhm6WJ0QSHAhr0CrMyvn/view?usp=sharing"
-    ); // Put your image url here.
+      "https://drive.google.com/file/d/1GMgudXGqdwRMBouYBUxeKB4s087Jk5B-/view?usp=sharing"
+    ); 
   };
 
   return (
@@ -35,13 +35,13 @@ const CustomButton = ({
       {downloadCv ? (
         <DownloadImage />
       ) : projectUrl ? (
-        <a href={projectUrl}>
+        <a href={projectUrl} rel="noreferrer" target="_blank">
           <button className="button">
             {text}
           </button>
         </a>
       ) : githubUrl ? (
-        <a href={githubUrl}>
+        <a href={githubUrl} rel="noreferrer" target="_blank">
           <button className="button">
             {text}
           </button>

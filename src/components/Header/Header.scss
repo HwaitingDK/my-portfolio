@@ -17,10 +17,30 @@
         
         li:hover{
             color: black;
-            background-color: white;
             font-size: 2rem;
             transition: 0.3s ease-in-out;
+            
+            @media screen and (max-width: 500px){
+                font-size: 1.7rem;
+            }
         }
+
+        .centerBro{
+            text-align: center;
+            align-items: center;
+            justify-content: center;
+        }
+    }
+
+
+    @media screen and (max-width: 500px) {
+        font-size: 0.8rem;
+        width: 100%;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        flex-direction: row;
+        margin: 0rem;
     }
 }
 

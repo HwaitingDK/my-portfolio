@@ -13,7 +13,7 @@ const ProjectItem = () => {
 
   return (
     <div className="projectItemContainer">
-      <p className="head-text">{project.title}</p>
+      <p className="head-text titleBro">{project.title}</p>
       <div className="mainContainerItem">
         <div className="imageContainerItem">
           <img src={images[project.imgUrl]} alt="" />

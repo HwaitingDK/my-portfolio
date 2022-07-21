@@ -1,7 +1,7 @@
 const projects = [{
     id: 1,
     title: 'Support desk',
-    description: 'This is suport desk which is made to provide support the users.',
+    description: "Support desk web app is made to provide support to the users. It's a Mern Stack App. In this one can create, view, close ticket, add notes and do all crud operations. It’s authenticated by Json web token.",
     imgUrl: 'supportdesk',
     projectUrl: '/projects/1',
     githubUrl: 'https://dksupportdesk.herokuapp.com/',
@@ -46,7 +46,7 @@ const projects = [{
   {
     id: 6,
     title: 'Heart Disease Classification',
-    description: 'Heart Disease Prediction Model. It can predict the whether someone has heart disease or not, given health info. It was implemented using pandas, numpy, matplotlib and model from sckit-learn.',
+    description: 'Heart Disease Prediction Model. It can predict the whether someone has heart disease or not, given health info. It is implemented using pandas, numpy, matplotlib and model from sckit-learn.',
     imgUrl: 'heartdisease',
     projectUrl: '/projects/6',
     watchLiveUrl: 'https://github.com/Dikshant09/ML-Projects/tree/master/Machine%20Learning/End%20to%20End%20Heart%20Disease%20Classification',
@@ -55,7 +55,7 @@ const projects = [{
       id: 7,
       title: 'Bulldozer Price Prediction',
       imgUrl: 'bulldozer',
-      description: "In this project a regression model is created to predict the sale price of bulldozers sold at auctions. It was implemented using pandas, numpy, matplotlib and model from sckit-learn.",
+      description: "In this project a regression model is created to predict the sale price of bulldozers sold at auctions. It is implemented using pandas, numpy, matplotlib and model from sckit-learn.",
       projectUrl: '/projects/7',
       watchLiveUrl: 'https://github.com/Dikshant09/ML-Projects/blob/master/Machine%20Learning/End%20to%20End%20Bulldozer-price-prediction-project/end-to-end-bulldozer-price-regression.ipynb',
   },
@@ -63,7 +63,7 @@ const projects = [{
     id: 8,
     title: 'Dog Breed Identification',
     imgUrl: 'dog',
-    description: "End-to-end Multi-class Dog Breed Classification model. This model is capable to recognize 120 breeds of dogs. It was implemented using Pandas, numpy, matplotlib, scikit-learn, google collab, model from TensorFlow 2.7 and TensorFlow Hub [MobileNet V2]",
+    description: "End-to-end Multi-class Dog Breed Classification model. This model is capable to recognize 120 breeds of dogs. It is implemented using Pandas, numpy, matplotlib, scikit-learn and model from TensorFlow.",
     projectUrl: '/projects/8',
     watchLiveUrl: 'https://github.com/Dikshant09/ML-Projects/blob/master/Machine%20Learning/End%20to%20End%20Dog%20Breed%20Identification/dog-vision.ipynb',
 },
@@ -72,7 +72,7 @@ const projects = [{
     title: 'Disease Prediction',
     imgUrl: 'diseaseprediction',
     projectUrl: '/projects/9',
-    description: "This notebook looks into using various Python-based machine learning and data science libraries in an attempt to build a machine learning model capable of predicting someone's disease based on their medical attributes",
+    description: "This notebook looks into using machine learning and data science libraries in an attempt to build a machine learning model capable of predicting someone's disease given symptoms",
     watchLiveUrl: 'https://github.com/cupunjab/BruteForce/blob/master/ML/Jupyter%20Notebook/Disease%20Prediction%20Model.ipynb',
   }
 ];
